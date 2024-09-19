@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Instagram</title>
+</head>
+
+<body>
+  <div class="container">
+  <div class="Generalpost justify-content-center">
+   
+      <div class="row">
+    <nav class="navbar bg-body-tertiary">
+      <form class="container-fluid">
+
+      <div class="d-flex  col-2 col-md-3 align-items-center ps-2 me-3">
+        <i class="fa-brands fa-instagram fa-2xl pe-1"> </i>
+        <h3 >Instagram</h3>
+      </div>
+      
+        <div class="botones d-flex col-8 col-md-6 m-4">
+          <div class="container ps-0 ms-4 d-flex justify-content-end">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a
+              new post</button>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                          aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      <div class="modal-header">
+                         <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>Caption:</h5>
+                            <div class="input-group input-group-lg">
+                            <input type="text" placeholder="Add the caption of your post here" class="form-control"
+                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                            </div>
+                          <br>
+                           <button type="button" class="btn btn-secondary"><i class="bi bi-camera-fill"></i></button>
+                          <button type="button" class="btn btn-secondary"><i class="bi bi-geo-alt-fill"></i></button>
+                            </div>
+                         <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-success">Publish</button>
+                          </div>
+                        </div>
+                       </div>
+                      </div>
+                     </div>
+            
+          <div class="dropdown me-1">
+            <button type="button" class="btn btn-light me-0">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                aria-expanded="false">
+                <i class="fa-solid fa-gear" style="color: #ffffff;"></i> </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" style="color: red;" href="#">Log Out</a></li>
+              </ul>
+            </button>
+          </div>
+        </div>
+      </form>
+    </nav>
+  
+</div>
+  </div>
+
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+          role="tab" aria-controls="home-tab-pane" aria-selected="true">
+          <i class="fa-solid fa-table-cells"></i>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
+          role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"
+            style="color: #787878;"></i></button>
+      </li>
+    </ul>
+  
+
+
+
+    <div class="tab-content d-flex justify-content-center" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <div class="container row">
+
+          <img class="col-12 col-md-4 pb-2 pe-0"
+            src="https://pampermut.com/blog/wp-content/uploads/2020/05/Como-es-el-caracter-de-tu-perro-segun-su-horoscopo-scaled.jpg"
+            alt="">
+          <img class="col-12 col-md-4 pb-2 pe-0"
+            src="https://www.australianageingagenda.com.au/wp-content/uploads/2020/03/Young-students-istock-scaled.jpg"
+            alt="">
+          <img class="col-12 col-md-4 pb-2 pe-0"
+            src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/dd/dd/02.jpg" alt="">
+          <img class="col-12 col-md-4 pb-2 pe-0" src="https://mukae-dc.jp/wp-content/uploads/2020/09/14.jpg" alt="">
+          <img class="col-12 col-md-4 pb-2 pe-0"
+            src="https://jornalperiscopio.com.br/site/wp-content/uploads/2023/03/VIAGEM-3-21-02-23-1400x935.jpg" alt="">
+          <img class="col-12 col-md-4 pb-2 pe-0"
+            src="https://s2.glbimg.com/AVL7P3HGIik9T-F9Z2MftmZ0pCQ=/0x0:2000x1363/690x470/s.glbimg.com/es/ge/f/original/2017/03/04/000_mc787_xwiDdVr.jpg"
+            alt="">
+          <img class="col-12 col-md-4 pb-2 pe-0"
+            src="https://www.5septiembre.cu/wp-content/uploads/2022/10/Elogio-de-la-familia-nuclear.jpg" alt="">
+          <img class="col-12 col-md-4 pb-2 pe-0" src="https://www.cloudmasters.es/wp-content/uploads/2022/10/python-scaled.jpg" alt="">
+          <img class="col-12 col-md-4 pb-2 pe-0" src="https://www.pwc.co.za/en/assets/images/Heroes/two-students-in-class-za-hero.jpg"
+            alt="">
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+      <div class="container">
+
+        <div class="card mb-4 mt-4 ">
+          <div class="row my-4">
+            <h2 class="card-title col-9 col-sm-10 col-md-10 col-lg-11 pe-0 me-0 align-self-center">My cute dog Spark!</h2>
+          <p class="card-text col-2 col-sm-2 col-md-1 col-lg-1 mt-2 pe-0 ms-0"><small class="text-body-secondary ">06/10</small></p>
+        </div>
+          <img src="https://pampermut.com/blog/wp-content/uploads/2020/05/Como-es-el-caracter-de-tu-perro-segun-su-horoscopo-scaled.jpg" class="card-img-top" alt="...">
+            <h4 class="card-title mt-2">355 Likes</h4>
+            <h6 class="card-text mb-4">This is an example of a very good photo that you can post on Instagram</h6>
+        </div>
+
+        
+        <div class="card mb-4 mt-4 ">
+         <div class="row my-4">
+          <h2 class="card-title col-9 col-sm-10 col-md-10 col-lg-11 pe-0 me-0 align-self-center">My university companions.</h2>
+          <p class="card-text col-2 col-sm-2 col-md-1 col-lg-1 mt-2 pe-0 ms-0">08/09</small></p>
+        </div>
+          <img src="https://www.australianageingagenda.com.au/wp-content/uploads/2020/03/Young-students-istock-scaled.jpg" class="card-img-top" alt="...">
+          <h4 class="card-title mt-2">158 Likes</h4>
+          <h6 class="card-text mb-4">This is an example of a very good photo that you can post on Instagram</h6>
+        </div>
+        
+          <div class="card mb-4 mt-4 ">
+            <div class="row my-4">
+              <h2 class="card-title col-9 col-sm-10 col-md-10 col-lg-11 pe-0 me-0 align-self-center">My favorite city in the world!</h2>
+            <p class="card-text col-2 col-sm-2 col-md-1 col-lg-1 mt-2 pe-0 ms-0">11/06</small></p>
+          </div>
+            <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/dd/dd/02.jpg" class="card-img-top" alt="...">
+            <h4 class="card-title mt-2">3505 Likes</h4>
+            <h6 class="card-text mb-4">This is an example of a very good photo that you can post on Instagram</h6>
+          </div>
+       
+          <div class="card mb-4 mt-4 ">
+            <div class="row my-4">
+              <h2 class="card-title col-9 col-sm-10 col-md-10 col-lg-11 pe-0 me-0 align-self-center">Good to see you again, friend.</h2>
+            <p class="card-text col-2 col-sm-2 col-md-1 col-lg-1 mt-2 pe-0 ms-0">04/02</small></p>
+          </div>
+            <img src="https://mukae-dc.jp/wp-content/uploads/2020/09/14.jpg" class="card-img-top" alt="...">
+            <h4 class="card-title mt-2">254 Likes</h4>
+            <h6 class="card-text mb-4">This is an example of a very good photo that you can post on Instagram</h6>
+          </div>
+        
+
+        <div class="card mb-4 mt-4 ">
+         <div class="row my-4">
+          <h2 class="card-title col-9 col-sm-10 col-md-10 col-lg-11 pe-0 me-0 align-self-center">Rio de janeiro, Brazil!</h2>
+          <p class="card-text col-2 col-sm-2 col-md-1 col-lg-1 mt-2 pe-0 ms-0">30/12</small></p>
+        </div>
+          <img src="https://jornalperiscopio.com.br/site/wp-content/uploads/2023/03/VIAGEM-3-21-02-23-1400x935.jpg" class="card-img-top" alt="...">
+          <h4 class="card-title mt-2">2375 Likes</h4>
+          <h6 class="card-text mb-4">This is an example of a very good photo that you can post on Instagram</h6>
+        </div>
+
+        <div class="card mb-4 mt-4 ">
+         <div class="row my-4">
+          <h2 class="card-title col-9 col-sm-10 col-md-10 col-lg-11 pe-0 me-0 align-self-center">Amazing GOAL by Neymar!</h2>
+          <p class="card-text col-2 col-sm-2 col-md-1 col-lg-1 mt-2 pe-0 ms-0">02/12</small></p>
+        </div>
+          <img src="https://s2.glbimg.com/AVL7P3HGIik9T-F9Z2MftmZ0pCQ=/0x0:2000x1363/690x470/s.glbimg.com/es/ge/f/original/2017/03/04/000_mc787_xwiDdVr.jpg" class="card-img-top" alt="...">
+          <h4 class="card-title mt-2">1598 Likes</h4>
+          <h6 class="card-text mb-4">This is an example of a very good photo that you can post on Instagram</h6>
+        </div>
+      
+        <div class="card mb-4 mt-4 ">
+         <div class="row my-4">
+          <h2 class="card-title col-9 col-sm-10 col-md-10 col-lg-11 pe-0 me-0 align-self-center">Happy family</h2>
+          <p class="card-text col-2 col-sm-2 col-md-1 col-lg-1 mt-2 pe-0 ms-0">12/11</small></p>
+        </div>
+          <img src="https://www.5septiembre.cu/wp-content/uploads/2022/10/Elogio-de-la-familia-nuclear.jpg" class="card-img-top" alt="...">
+          <h4 class="card-title mt-2">256 Likes</h4>
+          <h6 class="card-text mb-4">This is an example of a very good photo that you can post on Instagram</h6>
+        </div>
+
+        <div class="card mb-4 mt-4 ">
+         <div class="row my-4">
+          <h2 class="card-title col-9 col-sm-10 col-md-10 col-lg-11 pe-0 me-0 align-self-center">First day in the university</h2>
+          <p class="card-text col-2 col-sm-2 col-md-1 col-lg-1 mt-2 pe-0 ms-0">24/10</small></p>
+        </div>
+          <img src="https://www.pwc.co.za/en/assets/images/Heroes/two-students-in-class-za-hero.jpg" class="card-img-top" alt="...">
+          <h4 class="card-title mt-2">437 Likes</h4>
+          <h6 class="card-text mb-4">This is an example of a very good photo that you can post on Instagram</h6>
+        </div>
+
+        <div class="card mb-4 mt-4 ">
+         <div class="row my-4">
+          <h2 class="card-title col-9 col-sm-10 col-md-10 col-lg-11 pe-0 me-0 align-self-center">Developer: The profession of the future?</h2>
+          <p class="card-text col-2 col-sm-2 col-md-1 col-lg-1 mt-2 pe-0 ms-0">06/09</small></p>
+        </div>
+          <img src="https://www.cloudmasters.es/wp-content/uploads/2022/10/python-scaled.jpg" class="card-img-top" alt="...">
+          <h4 class="card-title mt-2">198 Likes</h4>
+          <h6 class="card-text mb-4">This is an example of a very good photo that you can post on Instagram</h6>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
